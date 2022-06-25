@@ -197,7 +197,11 @@
 .ico-team-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.ico-tiam:not(:last-child) {
+    margin-right: 10px;
 }
 
 .social-link {
@@ -206,14 +210,14 @@
     justify-content: center;
     width: 44px;
     height: 44px;
-    background-color:var(--secondary-background-color);
     border-radius: 50%;
-    color: var(--social-icon-color);
+    fill: var(--social-icon-color);
 }
 
-.social-link :hover,
-.social-link :focus {
-background-color: var(--accent-color);
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--accent-color);
+    fill: var(--primery-white-coloc);
 }
 
 /* Клієнти*/
@@ -235,8 +239,8 @@ background-color: var(--accent-color);
     border-radius: 4px;
 }
 
-.services :hover,
-.services :focus {
+.clients:hover,
+.clients:focus {
     color: var(--accent-color);
     border: 1px solid var(--accent-color);
 }

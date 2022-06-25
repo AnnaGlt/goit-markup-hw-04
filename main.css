@@ -182,3 +182,43 @@ address {
     margin-bottom: 9px;
 }
 
+.ico-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+        }
+
+.social-link-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: var(--primery-white-coloc);
+}
+        
+.ico-footer:hover,
+.ico-footer:focus {
+    background-color: var(--accent-color);
+    fill: var(--primery-white-coloc);
+}
+
+.footer-position{
+    display: flex;
+}
+
+.footer-main {
+    margin-right: 70px;
+}  
+
+.footer-add {
+    padding-top: 12px;
+}
+
+.add {
+    margin-bottom: 20px;
+}
+
+

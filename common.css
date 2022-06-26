@@ -12,8 +12,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    max-width: 1600;
-    max-height: 600;
+    max-width: 1600px;
+    max-height: 600px;
     margin-left: auto;
     margin-right: auto;
 }

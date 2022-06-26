@@ -11,21 +11,24 @@
         url(./bgImg.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     max-width: 1600;
+    max-height: 600;
     margin-left: auto;
     margin-right: auto;
 }
 
-.hero.title {
-    max-width: 650px;
+.hero-title {
+    max-width: 696px;
+    height: 120px;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0;
     color: var(--primery-white-coloc);
+    font-family: var(--main-font);
     font-size: 44px;
     font-weight: 900;
+    font-style: normal;
     line-height: 1.36;
     letter-spacing: 0.06em;
 }

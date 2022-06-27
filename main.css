@@ -199,8 +199,8 @@ address {
     background-color: rgba(255, 255, 255, 0.1);
 }
         
-.ico-footer:hover,
-.ico-footer:focus {
+.social-link-footer:hover,
+.social-link-footer:focus {
     background-color: var(--accent-color);
     fill: var(--primery-white-coloc);
 }

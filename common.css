@@ -252,7 +252,7 @@
 }
 
 .clients-list:hover,
-.clients-list:focus {
+.clients-list:focus-within {
     fill: rgba(33, 150, 243, 1);
     border: 1px solid var(--accent-color);
 }

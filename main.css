@@ -53,10 +53,6 @@ img{
 
 /* хедер*/
 
-.header{
-    border-bottom: 1px solid #ECECEC;
-}
-
 .header-container {
     display: flex;
     align-items: center;
@@ -77,9 +73,10 @@ img{
 }
 
 .header {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     background-color: var(--primery-white-coloc);
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-nav {
@@ -121,7 +118,8 @@ margin-right: 50px;
     letter-spacing: 0.02em;
 }
 
-.header-contact:hover {
+.header-contact:hover,
+.header-contact:focus {
     color: var(--accent-color);
 }
 
@@ -186,17 +184,19 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 44px;
-    height: 44px;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-        }
+    margin-right: 10px;
+    }
 
 .social-link-footer {
     display: flex;
     align-items: center;
     justify-content: center;
     fill: var(--primery-white-coloc);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
 }
         
 .ico-footer:hover,
@@ -219,6 +219,7 @@ address {
 
 .add {
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 

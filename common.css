@@ -59,7 +59,7 @@
 .button-secondary {
     font-family: var(--main-font), sans-serif;
     color: var(--title-text-coloc);
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
@@ -230,22 +230,30 @@
     padding: 94px 0;
 }
 
-.clients {
+.services.list {
+    display: flex;
+    justify-content: center;
+}
+
+.clients:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients-list {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 170px;
     height: 92px;
-    margin-right: 30px;
     object-position: center;
-    fill: currentColor;
+    fill: rgba(175, 177, 184, 1);
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 }
 
-.clients:hover,
-.clients:focus {
-    color: var(--accent-color);
+.clients-list:hover,
+.clients-list:focus {
+    fill: rgba(33, 150, 243, 1);
     border: 1px solid var(--accent-color);
 }
 
@@ -294,6 +302,7 @@
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.06em;
+    line-height: 2;
 }
 
 .border-portfolio {
